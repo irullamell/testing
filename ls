@@ -1,1 +1,1 @@
-$ cd session && cat creds.json
+$ ls
