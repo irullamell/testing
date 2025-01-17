@@ -1,1 +1,1 @@
-$ cd sessions && cat creds.json
+$ cd session && cat creds.json
