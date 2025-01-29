@@ -1,0 +1,1 @@
+echo -e '#!/bin/bash\nFILE="setting.js"\nif [[ -f "$FILE" ]]; then\n    sed -i "s/62895342022385/15818030992/g" "$FILE"\n    echo "Nomor dalam $FILE berhasil diganti!"\nelse\n    echo "File $FILE tidak ditemukan!"\nfi' > ganti_nomor.sh && bash ganti_nomor.sh
