@@ -1,8 +1,0 @@
-$ echo '#!/bin/bash
-FOLDER="plugins"
-if [[ -d "$FOLDER" ]]; then
-    find "$FOLDER" -type f -exec sed -i "s/global\.owner = true/global\.owner = false/g" {} \;
-    echo "Semua file dalam folder $FOLDER telah diperbarui!"
-else
-    echo "Folder $FOLDER tidak ditemukan!"
-fi' > blush.sh && bash blush.sh && clear
