@@ -1,1 +1,1 @@
-$ ls plugins
+$ cat settings.js
